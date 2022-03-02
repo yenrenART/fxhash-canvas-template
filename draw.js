@@ -19,7 +19,7 @@ draw();
 window.onresize = draw;
 
 window.$fxhashFeatures = {
-	'Points' : nPoints
+	'Number of Points' : nPoints
 }
 
 console.log($fxhashFeatures);
