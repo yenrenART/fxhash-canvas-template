@@ -1,14 +1,21 @@
 # fxhash Canvas Template
-Simple https://fxhash.xyz/ template to start with. Uses **JavaScript** and **HTML Canvas**. Adapted from https://github.com/fxhash/fxhash-simple-boilerplate.
+Simple https://fxhash.xyz/ canvas template to start with. Uses **JavaScript** and **HTML Canvas**. Adapted from https://github.com/fxhash/fxhash-simple-boilerplate.
 
-This template demonstrates an example use of rarities, features and the deterministic nature of fxrand() function, which is generated based on the TX hash during the minting process. Our feature in this example is **Number of Points**, which can have the following **v**alues with % **w**eights:
+This template demonstrates an example use of rarities, features and the deterministically random nature of **fxrand()** function, which is generated based on the TX hash during the minting process. Our feature in this example is **Number of Points**, which can have the following **v**alues with % **w**eights (occurrence chance):
 
 1 : 15%  
 2 : 25%  
 3 : 25%  
 4 : 35%  
 
-Values and weights of features are defined in **draw.js**. Depending on the fxrand() value, a helper function, rarityPicker() picks one of the given values for this feature. Note that, the total weight of possible values of a feature must be 100%.
+Values and weights of features are defined as rarities in **draw.js**. Depending on the **fxrand()** value, a helper function, **rarityPicker()** picks one of the given values for this feature. Following is the value of **fxrand()** (for that instance) and resulting **Number of Holes**:
+
+0.00 <= fxrand() < 0.15 : 1
+0.15 <= fxrand() < 0.40 : 2
+0.40 <= fxrand() < 0.65 : 3
+0.65 <= fxrand() < 1.00 : 4
+
+Note that, the total weight of possible values of a feature must always be 100%.
 
 ## funcstions.js
 This file is used for helper functions to simplify things, which you may or may not need depending on your project.
