@@ -1,6 +1,8 @@
 # fxhash Canvas Template
 Simple https://fxhash.xyz/ canvas template to start with. Uses **JavaScript** and **HTML Canvas**. Adapted from https://github.com/fxhash/fxhash-simple-boilerplate.
 
+## Rarities and Features
+
 This template demonstrates an example use of rarities, features and the deterministically random nature of **fxrand()** function, which is generated based on the TX hash during the minting process. Our feature in this example is **Number of Points**, which can have the following **v**alues with % **w**eights (occurrence chance):
 
 1 : 15%  
