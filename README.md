@@ -3,7 +3,7 @@ Simple https://fxhash.xyz/ template to start with. Uses **JavaScript** and **HTM
 
 This template demonstrates an example use of rarities, features and the deterministic nature of fxrand() function, which is generated based on the TX hash during the minting process. Our feature here is **Number of Points**, which can have the following values with % weights:
 
-1 : 15%
+1 : 15% 
 2 : 25%
 3 : 25%
 4 : 35%
