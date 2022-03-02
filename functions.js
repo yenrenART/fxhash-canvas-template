@@ -1,4 +1,4 @@
-// Random number between min/max
+// Random number between min/max (both inclusive)
 function randomNumber(min, max, fxrand) {
 	return Math.floor(fxrand * (max - min + 1) + min);
 }
