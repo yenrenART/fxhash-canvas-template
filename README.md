@@ -14,7 +14,7 @@ Values and weights of features are defined in **draw.js**. Depending on the fxra
 This file is used for helper functions to simplify things, which you may or may not need depending on your project.
 
 ## draw.js
-Do not use **fxrand()** within the **draw()** function; otherwise, you'll get a different result at every page refresh.
+Do not use **fxrand()** within the **draw()** function; otherwise, you'll get a different result at every page refresh. So, you need to prepare your rarities and features (via fxrand()) before you start with the **draw()** function.
 
 In **draw()**, we first get the canvas size **w** based on the browser window dimensions. You can then use **w** as your base unit for the location and size of your shapes to achieve a responsive design. e.g. width of rectangle = w / 10, location of rectangle = (w / 4, w / 6), etc. This is important to achieve responsive design. For simplicity, this example uses a square canvas, but you can modify it as you wish.
 
