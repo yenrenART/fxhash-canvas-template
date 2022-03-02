@@ -10,9 +10,9 @@ This template demonstrates an example use of rarities, features and the determin
 
 Values and weights of features are defined as rarities in **draw.js**. Depending on the **fxrand()** value, a helper function, **rarityPicker()** picks one of the given values for this feature. Following is the value of **fxrand()** (for that instance) and resulting **Number of Holes**:
 
-0.00 <= fxrand() < 0.15 : 1
-0.15 <= fxrand() < 0.40 : 2
-0.40 <= fxrand() < 0.65 : 3
+0.00 <= fxrand() < 0.15 : 1  
+0.15 <= fxrand() < 0.40 : 2  
+0.40 <= fxrand() < 0.65 : 3  
 0.65 <= fxrand() < 1.00 : 4
 
 Note that, the total weight of possible values of a feature must always be 100%.
