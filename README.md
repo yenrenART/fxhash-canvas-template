@@ -40,7 +40,7 @@ https://www.fxhash.xyz/doc/artist/guide-publish-generative-token
 If you have any https://fxhash.xyz/ related questions, please join the official Discord server at https://discord.com/invite/m8vVKTD6JB, where you will find many questions answered by a welcoming community of artists and art lovers.
 
 ## Random Hashes
-Some random hashes to use in your tests:
+Some random hashes to use in your tests. In **index.html**, you can use one of these as the **fxhash** value, instead of random generation. Useful during the initial design stage to test for certain set of features, instead of seeing a different picture at every page refresh.
 
 oo67Yo3VtCXZeMr7YaXQ2tZQuFfx2kkhkFYvwEVHLxciC8joEDx  
 ooLpoT3W8Esey87hSbZ4VkmzFuXjgukEj4WGBvYynYobuW2K3e4  
