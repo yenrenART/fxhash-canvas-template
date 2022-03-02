@@ -10,9 +10,13 @@ This template demonstrates an example use of rarities, features and the determin
 
 Depending on the fxrand() value, Note that total weight of possible values of a feature must be 100%.
 
-**funcstions.js** is used for helper functions to simplify things, which you may or may not need depending on your project.
+## funcstions.js
+This file is used for helper functions to simplify things, which you may or may not need depending on your project.
 
-In **draw.js**, fxrand() shouldn't be used within the draw() function; otherwise, you'll get a different result at every page reload.
+## draw.js
+fxrand() shouldn't be used within the draw() function; otherwise, you'll get a different result at every page reload.
+
+In draw(), we first get the canvas size **w** based on the browser window dimensions. You can then use **w** as your base unit for the location and size of your shapes to achieve a responsive design. e.g. width of rectangle = w / 10. This is important to achieve responsive design. For simplicity, this example uses a square canvas, but you can modify it as you wish.
 
 This is work-in-progress, code is subject to change.
 
