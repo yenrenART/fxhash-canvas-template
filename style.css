@@ -1,1 +1,3 @@
+/* Hides scrollbars and aligns canvas to the center */
+
 body { overflow:hidden; margin:0 auto; text-align:center }
