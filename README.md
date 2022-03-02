@@ -37,7 +37,7 @@ Before starting to work on your 1st project, please make sure to read fxhash Doc
 https://www.fxhash.xyz/doc  
 https://www.fxhash.xyz/doc/artist/guide-publish-generative-token
 
-If you have any https://fxhash.xyz/ related questions, please join the official Discord server at https://discord.gg/m8vVKTD6JB, where you will find many questions answered by a welcoming community of artists and art lovers.
+If you have any https://fxhash.xyz/ related questions, please join the official Discord server at https://discord.com/invite/m8vVKTD6JB, where you will find many questions answered by a welcoming community of artists and art lovers.
 
 ## Random Hashes
 Some random hashes to use in your tests:
