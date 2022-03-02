@@ -1,2 +1,2 @@
 # fxhash-template
-Simple fxhash.xyz template to start with.
+Simple https://fxhash.xyz/ template to start with.
