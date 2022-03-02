@@ -1,6 +1,19 @@
 # fxhash Canvas Template
 Simple https://fxhash.xyz/ template to start with. Uses **JavaScript** and **HTML Canvas**. Adapted from https://github.com/fxhash/fxhash-simple-boilerplate.
 
+This template demonstrates an example use of rarities, features and the deterministic nature of fxrand() function, which is generated based on the TX hash during the minting process. Our feature here is **Number of Points**, which can have the following values with % weights:
+
+1 : 15%
+2 : 25%
+3 : 25%
+4 : 35%
+
+Depending on the fxrand() value,
+
+**funcstions.js** is used for helper functions to simplify things, which you may or may not need depending on your project.
+
+In **draw.js**, fxrand() shouldn't be used within the draw() function; otherwise, you'll get a different result at every page reload.
+
 This is work-in-progress, code is subject to change.
 
 # Notes
