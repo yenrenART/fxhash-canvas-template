@@ -3,6 +3,9 @@ Simple https://fxhash.xyz/ template to start with. Uses **JavaScript** and **HTM
 
 This is work-in-progress, code is subject to change.
 
+# Notes
+Before starting to work on your 1st project, please make sure to read fxhash Documentation at https://www.fxhash.xyz/doc, especially **Guide to mint a Generative Token** at https://www.fxhash.xyz/doc/artist/guide-publish-generative-token.
+
 # Random Hashes
 Some random hashes to use in your tests:
 
