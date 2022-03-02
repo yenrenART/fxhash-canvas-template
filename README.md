@@ -8,7 +8,7 @@ This template demonstrates an example use of rarities, features and the determin
 3 : 25%  
 4 : 35%  
 
-Depending on the fxrand() value,
+Depending on the fxrand() value, Note that total weight of possible values of a feature must be 100%.
 
 **funcstions.js** is used for helper functions to simplify things, which you may or may not need depending on your project.
 
