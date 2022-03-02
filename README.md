@@ -29,12 +29,12 @@ In **draw()**, we first get the canvas size **w** based on the browser window di
 
 This is still work-in-progress, code is subject to change.
 
-# Notes
+## Notes
 Before starting to work on your 1st project, please make sure to read fxhash Documentation at https://www.fxhash.xyz/doc, especially **Guide to mint a Generative Token** at https://www.fxhash.xyz/doc/artist/guide-publish-generative-token.
 
 If you have any https://fxhash.xyz/ related questions, please join the official Discord server at https://discord.gg/m8vVKTD6JB, where you will find many questions answered by a welcoming community of artists and art lovers.
 
-# Random Hashes
+## Random Hashes
 Some random hashes to use in your tests:
 
 oo67Yo3VtCXZeMr7YaXQ2tZQuFfx2kkhkFYvwEVHLxciC8joEDx  
