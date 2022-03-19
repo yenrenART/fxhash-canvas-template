@@ -25,4 +25,5 @@ window.$fxhashFeatures = {
 	'Number of Points' : nPoints
 }
 
-console.log($fxhashFeatures);
+console.log(fxhash);
+console.table($fxhashFeatures);
