@@ -13,6 +13,9 @@ function draw() {
 	var w = canvas.width = canvas.height = (window.innerWidth > window.innerHeight) ? window.innerHeight : window.innerWidth;
 		
 	// Draw your design here...
+	
+	// Capture preview after all drawing is done
+	fxpreview();
 }
 
 draw();
