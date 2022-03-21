@@ -14,6 +14,8 @@ function draw() {
 		
 	// Draw your design here...
 	
+	// Don't use fxrand() here. Assign fxrand() to variables or arrays outside draw() and use those variables or arrays here.
+	
 	// Capture preview after all drawing is done
 	fxpreview();
 }
