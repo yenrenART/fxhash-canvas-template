@@ -10,7 +10,7 @@ var nPoints = rarityPicker(pointsR, fxrand());
 
 function draw() {
 	// Canvas size
-	var w = canvas.width = canvas.height = (window.innerWidth > window.innerHeight) ? window.innerHeight : window.innerWidth;
+	var w = canvas.width = canvas.height = Math.min(window.innerWidth, window.innerHeight);
 		
 	// Draw your design here...
 	
