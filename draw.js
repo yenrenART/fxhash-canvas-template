@@ -20,8 +20,8 @@ function draw() {
 	fxpreview();
 }
 
-draw();
-window.onresize = draw;
+// Adds 0.2s delay during resize to reduce browser load.
+window.onload = draw; var d; window.onresize = function() { clearTimeout(d); d = setTimeout(draw, 200) };
 
 window.$fxhashFeatures = {
 	'Number of Points' : nPoints
