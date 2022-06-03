@@ -1,5 +1,5 @@
 # fxhash Canvas Template
-Simple https://fxhash.xyz/ canvas template to start with. Uses **JavaScript** and **HTML Canvas**. Adapted from https://github.com/fxhash/fxhash-simple-boilerplate.
+Simple https://fxhash.xyz/ JS-Canvas template to start with. Uses **JavaScript** and **HTML Canvas**. Adapted from https://github.com/fxhash/fxhash-simple-boilerplate.
 
 This is still work-in-progress, code is subject to change.
 
