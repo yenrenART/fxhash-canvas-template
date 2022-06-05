@@ -41,7 +41,7 @@ https://github.com/fxhash-wiki/fxhash-community-wiki/wiki/CODE-OF-CONDUCT
 
 If you have any https://fxhash.xyz/ related questions, please join the official Discord server at https://discord.com/invite/m8vVKTD6JB, where you will find many questions answered by a welcoming community of artists and art lovers.
 
-You can follow fxhash on Twitter @fx_hash_ and me https://twitter.com/yenrenART
+You can follow fxhash on Twitter @fx_hash_ and me https://twitter.com/yenrenART.
 
 ## Random Hashes
 Some random hashes to use in your tests. In **index.html**, you can use one of these as the **fxhash** value, instead of random generation. Useful during the initial design stage to test for certain set of features, instead of seeing a different picture at every page refresh.
