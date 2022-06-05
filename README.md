@@ -5,7 +5,7 @@ This is still work-in-progress, code is subject to change.
 
 ## Rarities and Features
 
-This template demonstrates an example use of rarities, features and the deterministically random nature of **fxrand()** function, which is generated based on the TX hash during the minting process.
+This template demonstrates an example use of rarities, features and the deterministically random nature of **fxrand()** function, which is generated based on the blockchain transaction hash during the minting process.
 
 Our feature in this example is **Number of Points**, which can have the following **v**alues with % **w**eights (occurrence chance):
 
