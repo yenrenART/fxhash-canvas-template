@@ -1,7 +1,3 @@
-// Canvas
-const canvas = document.querySelector('canvas');
-const ctx = canvas.getContext('2d');
-
 // Rarities
 const pointsR = [{v:1,w:15},{v:2,w:25},{v:3,w:25},{v:4,w:35}];
 
@@ -9,23 +5,40 @@ const pointsR = [{v:1,w:15},{v:2,w:25},{v:3,w:25},{v:4,w:35}];
 var nPoints = rarityPicker(pointsR, fxrand());
 
 function draw() {
-	// Canvas size
-	var w = canvas.width = canvas.height = Math.min(window.innerWidth, window.innerHeight);
-		
-	// Draw your design here...
+	fxrand = sfc32(...hashes);
 	
-	// Don't use fxrand() here. Assign fxrand() to variables or arrays outside draw() and use those variables or arrays here.
+	// Use one of the canvas size options:
+	// 1) Square
+	let cw = canvas.width = canvas.height = Math.min(window.innerWidth, window.innerHeight);
+	
+	// 2) Aspect ratio
+	let cw, ch, ar = 0.75;
+	if (window.innerWidth < ar * window.innerHeight) {
+		cw = canvas.width = window.innerWidth; ch = canvas.height = cw / ar;
+	} else {
+		ch = canvas.height = window.innerHeight; cw = canvas.width = ch * ar;
+	}
+		
+	// Draw your artwork here...
 	
 	// Capture preview after all drawing is done
 	fxpreview();
 }
 
-// Adds 0.2s delay during resize to reduce browser load.
-window.onload = draw; var d; window.onresize = function() { clearTimeout(d); d = setTimeout(draw, 200) };
+// Adds 0.1s delay during resize to reduce browser load
+window.onload = draw; var d; window.onresize = function() { clearTimeout(d); d = setTimeout(draw, 100) };
+
+// S - Save PNG
+document.addEventListener('keydown', function(e) {
+	if (e.keyCode == 83) {
+		let a = document.createElement('a'); a.download = 'ARTWORK-TITLE-by-ARTIST.png'; a.href = canvas.toDataURL('image/png'); a.click();
+	}
+});
 
 window.$fxhashFeatures = {
 	'Number of Points' : nPoints
 }
 
+// Remove
 console.log(fxhash);
 console.table($fxhashFeatures);
