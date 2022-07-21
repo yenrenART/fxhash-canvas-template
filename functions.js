@@ -1,3 +1,4 @@
+// Canvas
 const canvas = document.querySelector('canvas'), ctx = canvas.getContext('2d');
 
 // Random number between min/max (both inclusive)
