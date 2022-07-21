@@ -23,13 +23,16 @@ Values and weights of features are defined as rarities in **draw.js**. Depending
 
 Note that, the total weight of possible values of a feature must always be 100%.
 
-## funcstions.js
+## functions.js
 This file is used for helper functions to simplify things, which you may or may not need depending on your project.
 
 ## draw.js
 Do not use **fxrand()** within the **draw()** function; otherwise, you'll get a different result at every page refresh of a minted iteration. So, you need to prepare your rarities and features (via fxrand()) before you start with the **draw()** function.
 
 In **draw()**, we first get the canvas size **w** based on the browser window dimensions. You can then use **w** as your base unit for the location and size of your shapes to achieve a responsive design. e.g. width of rectangle = w / 10, location of rectangle = (w / 4, w / 6), etc. For simplicity, this example uses a square canvas, but you can modify it to your needs (i.e. portrait, landscape).
+
+## LICENSE.txt
+This file is where you store your license details for your art and code.
 
 ## Notes
 Before starting to work on your 1st project, please make sure to read fxhash Documentation at:
