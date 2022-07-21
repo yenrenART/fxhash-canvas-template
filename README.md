@@ -32,7 +32,7 @@ In **draw()**, we first get the canvas width **cw** based on the browser window 
 This template demonstrates the use of both a square canvas and a rectangle canvas with an aspect ratio (for portrait/landscape artworks).
 
 ## LICENSE.txt
-This file is where you store your license details for your art and code.
+This file is where you put your license details for your art and code.
 
 ## Notes
 Before starting to work on your 1st project, please make sure to read fxhash Documentation at:
