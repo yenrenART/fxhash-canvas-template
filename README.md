@@ -27,7 +27,7 @@ Note that, the total weight of possible values of a feature must always be 100%.
 This file is used for helper functions to simplify things, which you may or may not need depending on your project.
 
 ## draw.js
-In **draw()**, we first get the canvas width **cw** based on the browser window dimensions. You can then use **cw** as your base unit for the location and size of your shapes to achieve a responsive design. e.g. width of rectangle = w / 10, location of rectangle = (w / 4, w / 6), etc. This template demonstrates the use of both a square canvas and a rectangle canvas with an aspect ratio (for portrait/landscape artworks).
+In **draw()**, we first get the canvas width **cw** based on the browser window dimensions. You can then use **cw** as your base unit for the location and size of your shapes to achieve a responsive design. e.g. width of rectangle = cw / 10, location of rectangle = (cw / 4, cw / 6), etc. This template demonstrates the use of both a square canvas and a rectangle canvas with an aspect ratio (for portrait/landscape artworks).
 
 ## LICENSE.txt
 This file is where you store your license details for your art and code.
