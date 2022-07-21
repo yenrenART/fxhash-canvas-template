@@ -1,9 +1,13 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
-	<title>fxhash Project</title>
+	<meta charset="utf-8">
+	<title>ARTWORK TITLE - ARTIST</title>
+	<meta name="author" content="ARTIST - http://twitter.com/ARTIST">
+	<meta name="license" content="LICENSE.txt">
+	<style>body{overflow:hidden;background:#000}canvas{position:absolute;top:0;right:0;bottom:0;left:0;margin:auto}</style>
 	<script id="fxhash-snippet">
-	// DO NOT EDIT Replaced in live >>
+	// DO NOT EDIT - Replaced in live >>
 	let alphabet = "123456789abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNPQRSTUVWXYZ";
 	var fxhash = "oo"+Array(49).fill(0).map(_=>alphabet[(Math.random()*alphabet.length)|0]).join('');
 	let b58dec = str=>[...str].reduce((p,c)=>p*alphabet.length+alphabet.indexOf(c)|0,0);
@@ -28,13 +32,12 @@
 	// Append preview=1 to URL to simulate preview active
 	var isFxpreview = new URLSearchParams(window.location.search).get('preview') === "1";
 	
-	// Call this to trigger preview
+	// Call this (after drawing is done) to trigger preview
 	function fxpreview() {
 		console.log("fxhash: TRIGGER PREVIEW");
 	}
 	// << DO NOT EDIT
 	</script>
-	<link rel="stylesheet" href="./style.css">
 </head>
 <body>
 	<canvas></canvas>
