@@ -18,6 +18,10 @@ function draw() {
 	} else {
 		ch = canvas.height = window.innerHeight; cw = canvas.width = ch * ar;
 	}
+	
+	// Size unit
+	let size = 1000;
+	let u = cw / size;
 		
 	// Draw your artwork here...
 	
