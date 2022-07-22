@@ -27,7 +27,7 @@ Note that, the total weight of possible values of a feature must always be 100%.
 This file is used for helper functions to simplify things, which you may or may not need depending on your project.
 
 ## draw.js
-In **draw()**, we first get the canvas width **cw** based on the browser window dimensions. You can then use **cw** for the size and position of your shapes to achieve a responsive design. e.g. width of rectangle = cw / 10; [x, y] position of rectangle = [cw / 4, cw / 6], etc. Alternatively, you can use the size unit **u**, which is the division of **cw** by a given size value. e.g. width of rectangle = 100 * u; [x, y] position of rectangle = [200 * u, 300 * u].
+In **draw()**, we first get the canvas width **cw** based on the browser window dimensions. You can then use **cw** for the size and position of your shapes to achieve a responsive design. e.g. width of rectangle = cw / 10; [x, y] position of rectangle = [cw / 4, cw / 6], etc. Alternatively, you can use the size unit **u**, which is the division of **cw** by a given size value. e.g. width of rectangle = 100 * u; [x, y] position of rectangle = [200 * u, 300 * u]. You can think of size unit as responsive pixels.
 
 This template demonstrates the use of both a square canvas and a rectangle canvas with an aspect ratio (for portrait/landscape artworks).
 
