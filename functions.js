@@ -17,8 +17,8 @@ function randomItems(arr, n, fxrand) {
 }
 
 // Random color (HEX)
-function randomColor() {
-	return Math.random().toString(16).substr(2, 6);
+function randomColor(fxrand) {
+	return fxrand.toString(16).substr(2, 6);
 }
 
 // Rarity picker
