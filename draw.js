@@ -7,6 +7,8 @@ var nPoints = rarityPicker(pointsR, fxrand());
 function draw() {
 	fxrand = sfc32(...hashes);
 	
+	const canvas = document.querySelector('canvas'), ctx = canvas.getContext('2d');
+	
 	// Use one of the canvas size options:
 	// 1) Square
 	let cw = canvas.width = canvas.height = Math.min(window.innerWidth, window.innerHeight);
