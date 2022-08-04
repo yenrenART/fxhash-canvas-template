@@ -1,6 +1,3 @@
-// Canvas
-const canvas = document.querySelector('canvas'), ctx = canvas.getContext('2d');
-
 // Random number between min/max (both inclusive)
 function randomNumber(min, max, fxrand) {
 	return Math.floor(fxrand * (max - min + 1) + min);
