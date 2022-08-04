@@ -63,3 +63,42 @@ function circleF(x, y, r, t, cs, cf) {
 	ctx.beginPath(); ctx.arc(x, y, r - t / 2, 0, 2 * Math.PI); ctx.lineWidth = t * 2; ctx.strokeStyle = '#'+cs; ctx.stroke(); ctx.fillStyle = '#'+cf; ctx.fill();
 }
 
+// Draws a half circle starting at angle in radians (0 < angle < 2)
+function circle2(x, y, r, angle, c) {
+	ctx.beginPath(); ctx.arc(x, y, r, angle * Math.PI, (angle + 1) * Math.PI); ctx.fillStyle = '#'+c; ctx.fill();
+}
+
+// Draws a quarter circle starting at angle in radians (0 < angle < 2)
+function circle4(x, y, r, angle, c) {
+	ctx.beginPath(); ctx.moveTo(x, y); ctx.arc(x, y, r, angle * Math.PI, (angle + 0.5) * Math.PI); ctx.fillStyle = '#'+c; ctx.fill();
+}
+
+// Draws an ellipse with rotation in radians (0 < rotation < 2)
+function elips(x, y, r1, r2, rotation, c) {
+	ctx.beginPath(); ctx.ellipse(x, y, r1, r2, rotation * Math.PI, 0, 2 * Math.PI); ctx.fillStyle = '#'+c; ctx.fill();
+}
+
+// Draws an empty ellipse
+function elipsE(x, y, r1, r2, rotation, t, c) {
+	ctx.beginPath(); ctx.ellipse(x, y, r1, r2, rotation * Math.PI, 0, 2 * Math.PI); ctx.lineWidth = t; ctx.strokeStyle = '#'+c; ctx.stroke();
+}
+
+// Draws an ellipse with border
+function elipsF(x, y, r1, r2, rotation, t, cs, cf) {
+	ctx.beginPath(); ctx.ellipse(x, y, r1 - t / 2, r2 - t / 2, rotation * Math.PI, 0, 2 * Math.PI); ctx.lineWidth = t * 2; ctx.strokeStyle = '#'+cs; ctx.stroke(); ctx.fillStyle = '#'+cf; ctx.fill();
+}
+
+// Draws a polygon from given points - [[x1,y1],[x2,y2],[x3,y3],...]
+function poly(points, c) {
+	ctx.beginPath(); ctx.moveTo(points[0][0], points[0][1]); for (let i = 1; i < points.length; i++) ctx.lineTo(points[i][0], points[i][1]); ctx.fillStyle = '#'+c; ctx.fill();
+}
+
+// Draws an empty polygon
+function polyE(points, t, c) {
+	ctx.beginPath(); ctx.moveTo(points[0][0], points[0][1]); for (let i = 1; i < points.length; i++) ctx.lineTo(points[i][0], points[i][1]); ctx.closePath(); ctx.lineWidth = t; ctx.strokeStyle = '#'+c; ctx.stroke();
+}
+
+// Draws a polygon with border
+function polyF(points, t, cs, cf) {
+	ctx.beginPath(); ctx.moveTo(points[0][0], points[0][1]); for (let i = 1; i < points.length; i++) ctx.lineTo(points[i][0], points[i][1]); ctx.closePath(); ctx.lineWidth = t * 2; ctx.strokeStyle = '#'+cs; ctx.stroke(); ctx.fillStyle = '#'+cf; ctx.fill();
+}
