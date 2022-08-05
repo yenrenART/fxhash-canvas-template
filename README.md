@@ -23,6 +23,8 @@ Values and weights of features are defined as rarities in **draw.js**. Depending
 
 Note that, the total weight of possible values of a feature must always be 100%.
 
+As a side note, rarities and features are not a must. You are free to use them or not.
+
 ## functions.js
 This file is used for general helper functions to simplify things, which you may or may not need depending on your project.
 
