@@ -5,6 +5,8 @@ This is work-in-progress, code is subject to change. Please use this template fr
 
 ## Rarities and Features
 
+Rarities and features are optional. You are free to use them or not.
+
 This template demonstrates an example use of rarities, features and the deterministically random nature of **fxrand()** function, which is generated based on the blockchain transaction hash during the minting process (e.g. ooYFjT75y9odr9gZCqaqSbEVwDGjCevFYBv6BnR2THu1XYr5sN1).
 
 Our example feature is **Number of Points**, which can have the following **v**alues with % **w**eights (occurrence chance):
@@ -22,8 +24,6 @@ Values and weights of features are defined as rarities in **draw.js**. Depending
 0.65 <= fxrand() < 1.00 : 4
 
 Note that, the total weight of possible values of a feature must always be 100%.
-
-As a side note, rarities and features are optional. You are free to use them or not.
 
 ## functions.js
 This file is used for general helper functions, which you may or may not need depending on your project.
