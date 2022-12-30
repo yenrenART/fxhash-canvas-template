@@ -38,7 +38,7 @@ Then we specify base units for the canvas width, **cw = 1000**. This makes canva
 
 Using **setup(1200)** we specify the default size for the canvas. This makes canvas width 1200 pixels. You can use any value you want. This controls the output image size to be saved.
 
-To save larger output images, add "&s=WIDTH_IN_PIXELS" to the end of the URL in live view, and press S.
+To save larger output images, add **&s=WIDTH_IN_PIXELS** to the end of the URL in live view, and press **S**.
 
 Responsive resizing is handled automatically.
 
