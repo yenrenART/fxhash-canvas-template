@@ -43,7 +43,8 @@ To save larger output images, add **&s=WIDTH_IN_PIXELS** to the end of the URL i
 Responsive resizing is handled automatically.
 
 ## Known Issues
-- Shadows do not work properly with scaling (ctx.shadowBlur).
+- Shadows do not scale (ctx.shadowBlur).
+- Path2D do not scale.
 
 ## LICENSE.txt
 This file is where you put your license details for your art and code.
