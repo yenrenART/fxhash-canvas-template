@@ -44,6 +44,9 @@ Responsive resizing is handled automatically.
 
 ## Known Issues
 - Shadows do not scale (ctx.shadowBlur).
+- isPointInPath() check do not scale.
+
+These two issues are seemingly caused by CSS de-scaling, I will try to remedy them in a future update.
 
 ## LICENSE.txt
 This file is where you put your license details for your art and code.
